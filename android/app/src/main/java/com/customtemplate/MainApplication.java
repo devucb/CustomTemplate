@@ -1,4 +1,4 @@
-package com.pickz;
+package com.customtemplate;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

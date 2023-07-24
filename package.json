@@ -1,5 +1,5 @@
 {
-  "name": "Pickz",
+  "name": "customtemplate",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -32,6 +32,7 @@
     "react-native-paper": "^5.9.1",
     "react-native-permissions": "^3.8.4",
     "react-native-reanimated": "^3.3.0",
+    "react-native-rename": "^3.2.13",
     "react-native-safe-area-context": "^4.7.1",
     "react-native-screens": "^3.22.1",
     "react-native-tab-view": "^3.5.2",
