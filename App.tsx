@@ -4,15 +4,12 @@
  *
  * @format
  */
-import './src/locale/i18n';
-import {NavigationContainer} from '@react-navigation/native';
-import React from 'react';
-import {useTranslation} from 'react-i18next';
-import {Text} from 'react-native';
 
+import React from 'react';
+import './src/locale/i18n';
+import {RootNavigationProvider} from '@routes';
 function App(): JSX.Element {
-  const {t} = useTranslation();
-  return <Text style={{marginTop: 50}}>{t('common:username')}</Text>;
+  return <RootNavigationProvider />;
 }
 
 export default App;
