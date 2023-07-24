@@ -25,13 +25,13 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-  	<string>YOUR TEXT</string>
+	<string>YOUR TEXT</string>
 	<key>NSFaceIDUsageDescription</key>
-  	<string>YOUR TEXT</string> 
+	<string>YOUR TEXT</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-  	<string>YOUR TEXT</string>
-  	<key>NSPhotoLibraryAddUsageDescription</key>
-  	<string>YOUR TEXT</string>
+	<string>YOUR TEXT</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>YOUR TEXT</string>
 	<key>NSAppTransportSecurity</key>
 	<dict>
 		<key>NSExceptionDomains</key>
@@ -56,6 +56,10 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MaterialCommunityIcons.ttf</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>

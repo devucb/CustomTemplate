@@ -12,6 +12,8 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		63BAD2682A6EB77A0030F5F2 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63BAD2672A6EB77A0030F5F2 /* MaterialCommunityIcons.ttf */; };
+		63BAD2692A6EB77A0030F5F2 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63BAD2672A6EB77A0030F5F2 /* MaterialCommunityIcons.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-Pickz-PickzTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Pickz-PickzTests.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,7 @@
 		5709B34CF0A7D63546082F79 /* Pods-Pickz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pickz.release.xcconfig"; path = "Target Support Files/Pods-Pickz/Pods-Pickz.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Pickz-PickzTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pickz-PickzTests.debug.xcconfig"; path = "Target Support Files/Pods-Pickz-PickzTests/Pods-Pickz-PickzTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Pickz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pickz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BAD2672A6EB77A0030F5F2 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Pickz-PickzTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pickz-PickzTests.release.xcconfig"; path = "Target Support Files/Pods-Pickz-PickzTests/Pods-Pickz-PickzTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -84,6 +87,7 @@
 		13B07FAE1A68108700A75B9A /* Pickz */ = {
 			isa = PBXGroup;
 			children = (
+				63BAD2662A6EB7520030F5F2 /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -101,6 +105,14 @@
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-Pickz-PickzTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63BAD2662A6EB7520030F5F2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				63BAD2672A6EB77A0030F5F2 /* MaterialCommunityIcons.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -232,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BAD2692A6EB77A0030F5F2 /* MaterialCommunityIcons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BAD2682A6EB77A0030F5F2 /* MaterialCommunityIcons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
