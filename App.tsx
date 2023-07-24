@@ -4,7 +4,7 @@
  *
  * @format
  */
-
+import './src/locale/i18n';
 import {NavigationContainer} from '@react-navigation/native';
 import React from 'react';
 import {useTranslation} from 'react-i18next';
@@ -12,11 +12,7 @@ import {Text} from 'react-native';
 
 function App(): JSX.Element {
   const {t} = useTranslation();
-  return (
-    <NavigationContainer>
-      {<Text>{t('dummyNamespace.medium')}</Text>}
-    </NavigationContainer>
-  );
+  return <Text style={{marginTop: 50}}>{t('common:username')}</Text>;
 }
 
 export default App;
